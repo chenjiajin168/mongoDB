@@ -1,0 +1,38 @@
+2023-04-22 11:21:38.513 [main] INFO  com.chenjiajin.service.UserServiceTest - Starting UserServiceTest on DESKTOP-LU4QRDG with PID 11604 (started by chenjiajin in E:\IdeaProjects\这是入职练习项目\MongoDB入门\demo)
+2023-04-22 11:21:38.513 [main] DEBUG com.chenjiajin.service.UserServiceTest - Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2023-04-22 11:21:38.514 [main] INFO  com.chenjiajin.service.UserServiceTest - No active profile set, falling back to default profiles: default
+2023-04-22 11:21:39.036 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-22 11:21:39.112 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 1 MongoDB repository interfaces.
+2023-04-22 11:21:39.235 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMongoRepository' and 'com.chenjiajin.mongo.repository.UserMongoRepository' mapperInterface. Bean already defined with the same name!
+2023-04-22 11:21:39.970 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-22 11:21:40.030 [cluster-ClusterId{value='644352c3ad84ad29a91f12a8', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+2023-04-22 11:21:40.035 [cluster-ClusterId{value='644352c3ad84ad29a91f12a8', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2914900}
+2023-04-22 11:21:40.883 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-22 11:21:41.222 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-22 11:21:41.830 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-22 11:21:44.471 [main] INFO  com.chenjiajin.service.UserServiceTest - Started UserServiceTest in 6.389 seconds (JVM running for 7.843)
+2023-04-22 11:21:45.756 [main] DEBUG o.springframework.data.mongodb.core.MongoTemplate - Inserting Document containing fields: [name, age, hobby, _class] in collection: users
+2023-04-22 11:21:45.822 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:5}] to localhost:27017
+2023-04-22 11:21:45.876 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-04-22 11:21:45.894 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-04-22 11:21:45.895 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-22 11:21:45.899 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:5}] to localhost:27017 because the pool has been closed.
+2023-04-22 12:15:52.629 [main] INFO  com.chenjiajin.service.UserServiceTest - Starting UserServiceTest on DESKTOP-LU4QRDG with PID 12060 (started by chenjiajin in E:\IdeaProjects\这是入职练习项目\MongoDB入门\demo)
+2023-04-22 12:15:52.630 [main] DEBUG com.chenjiajin.service.UserServiceTest - Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2023-04-22 12:15:52.631 [main] INFO  com.chenjiajin.service.UserServiceTest - No active profile set, falling back to default profiles: default
+2023-04-22 12:15:53.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-04-22 12:15:53.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 1 MongoDB repository interfaces.
+2023-04-22 12:15:53.290 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'userMongoRepository' and 'com.chenjiajin.mongo.repository.UserMongoRepository' mapperInterface. Bean already defined with the same name!
+2023-04-22 12:15:54.029 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2023-04-22 12:15:54.077 [cluster-ClusterId{value='64435f7a86602d712d2b68a4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+2023-04-22 12:15:54.080 [cluster-ClusterId{value='64435f7a86602d712d2b68a4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2489600}
+2023-04-22 12:15:54.744 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-22 12:15:54.950 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-04-22 12:15:55.271 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-04-22 12:15:56.362 [main] INFO  com.chenjiajin.service.UserServiceTest - Started UserServiceTest in 4.193 seconds (JVM running for 5.185)
+2023-04-22 12:15:56.583 [main] DEBUG o.springframework.data.mongodb.core.MongoTemplate - find using query: { "name" : "dafei"} fields: Document{{}} for class: class com.chenjiajin.mongo.domain.User in collection: users
+2023-04-22 12:15:56.620 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:7}] to localhost:27017
+2023-04-22 12:15:56.675 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-04-22 12:15:56.684 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-04-22 12:15:56.684 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-22 12:15:56.688 [SpringContextShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:7}] to localhost:27017 because the pool has been closed.
